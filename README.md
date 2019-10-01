@@ -6,6 +6,8 @@ Share a character without needing to share all those morphs, receive a look / sc
 
 Create a 'base morph' for values that make up a look, only morphs needed for animation then need to be separate.
 
+![Plugin screenshot](https://raw.githubusercontent.com/ProjectCanyon/morph-merger/releases/release-1-0-5/MorphMerger105.png)
+
 ## Instructions
 
 * Add plugin to the Person.
