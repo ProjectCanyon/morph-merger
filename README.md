@@ -10,8 +10,9 @@ Create a 'base morph' for values that make up a look, only morphs needed for ani
 
 ## Instructions
 
-* Add plugin to the Person.
-* Open the Plugin UI as per usual.
+* Download the single file MorphMerger.cs and place with your other scripts, often found here: \VaM\Custom\Scripts.
+* Add plugin to the Person using the Atom tab on the person within VaM.
+* Click 'Open Custom UI'.
 * Select the morphs you would like to merge on the right, it filters to only show you morphs that have been set from their default, it also hides invisible morphs.
 Morphs only slightly used will be white, morphs either set to their min or max extent will be solid green.
 It will show morphs used by blinking and auto behaviors so you might want to turn that off, or make sure you deselect them.
@@ -20,7 +21,6 @@ If you have genital morphs it will create a separate morph for them so that it c
 * Hit the big red Merge button and all being well it will place the morphs in the correct base folders.
 * You won't be able to see your new morph until either you restart VaM or you do a hard reset from the main menu.
 * Your new morph should show up as morphs under _MorphMerger or the region name you specified.
-
 
 ## Version History
 
