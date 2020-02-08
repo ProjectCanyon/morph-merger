@@ -2,6 +2,8 @@
 
 Combine your look into one morph by merging your morphs.
 
+Download here: https://github.com/ProjectCanyon/morph-merger/releases
+
 Share a character without needing to share all those morphs, receive a look / scene without having to worry about bad morphs.
 
 Create a 'base morph' for values that make up a look, only morphs needed for animation then need to be separate.
