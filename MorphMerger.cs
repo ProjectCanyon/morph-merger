@@ -58,7 +58,7 @@ namespace MorphMerger
         {
             try
             {
-                pluginLabelJSON.val = "MorphMerger v1.0.5 (by ProjectCanyon)";
+                pluginLabelJSON.val = "MorphMerger v1.0.6 (by ProjectCanyon)";
 
                 if (containingAtom.type != "Person")
                 {
@@ -342,7 +342,7 @@ namespace MorphMerger
 
                     foreach (DAZMorphFormula formula in selectableMorph.Morph.formulas)
                     {
-                        if (formula.targetType == DAZMorphFormulaTargetType.MCM || formula.targetType == DAZMorphFormulaTargetType.MCMMult)
+                        if (formula.targetType == DAZMorphFormulaTargetType.MCM || formula.targetType == DAZMorphFormulaTargetType.MCMMult || formula.targetType == DAZMorphFormulaTargetType.MorphValue)
                             continue;
 
                         var combinedFormula = new DAZMorphFormula
