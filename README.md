@@ -34,3 +34,6 @@ If you have genital morphs it will create a separate morph for them so that it c
 * Includes fix for 1.18.04, the breaking change was the removal of morphNames property, this is only actually used in the code to reset a morph to default. As this is now available in vanilla VAM in 1.18 I've just removed that code. If people found that useful and I have some time I'll hunt down how Meshed is doing it now and copy it.
 * By request changed the default sort order from alphabetical to 'by magnitude', i.e. the morphs having the most effect will be at the top. If people hate this I can switch it back, or better yet put a sort by option in when I have time.
 * Also by request it will now add a 8 character random id to the end of the morph names to promote renaming to stop generic morph names flooding the community, overwriting and causing carnage!
+
+**8th February 2020: Uploadted to v.1.0.6**
+* Minor change to ignore formulas that target other morph values, this was causing a doubling up of effects. Assuming that we capture the results of all selected morphs we don't need to use the chaining nature of 'DAZMorphFormulaTargetType.MorphValue'. 
