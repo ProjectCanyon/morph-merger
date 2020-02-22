@@ -170,23 +170,23 @@ namespace MorphMerger
 
                 _mergeButton = CreateButton("Merge");
                 _mergeButton.buttonColor = Color.red;
-                _mergeButton.height = 150;
+                _mergeButton.height = 100;
                 _mergeButton.buttonText.fontStyle = FontStyle.Bold;
                 _mergeButton.buttonText.fontSize = 42;
                 if (_mergeButton != null)
                     _mergeButton.button.onClick.AddListener(Merge);
 
-                _resultTextField = CreateTextField(new JSONStorableString("result", string.Empty));
-                _resultTextField.UItext.fontSize = 24;
-
                 //Body Spliter
                 _splitButton = CreateButton("Split Body");
-                _splitButton.buttonColor = Color.blue;
-                _splitButton.height = 150;
+                _splitButton.buttonColor = Color.cyan;
+                _splitButton.height = 100;
                 _splitButton.buttonText.fontStyle = FontStyle.Bold;
                 _splitButton.buttonText.fontSize = 42;
                 if (_splitButton != null)
                     _splitButton.button.onClick.AddListener(Split);
+
+                _resultTextField = CreateTextField(new JSONStorableString("result", string.Empty));
+                _resultTextField.UItext.fontSize = 24;
 
                 Refresh();
             }
