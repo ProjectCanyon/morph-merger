@@ -8,7 +8,11 @@ Share a character without needing to share all those morphs, receive a look / sc
 
 Create a 'base morph' for values that make up a look, only morphs needed for animation then need to be separate.
 
-![Plugin screenshot](https://raw.githubusercontent.com/ProjectCanyon/morph-merger/releases/release-1-0-5/MorphMerger105.png)
+### Contributors
+
+chokaphi
+
+![Plugin screenshot](https://raw.githubusercontent.com/ProjectCanyon/morph-merger/master/MorphMerger_UI.png)
 
 ## Instructions
 
@@ -37,5 +41,12 @@ If you have genital morphs it will create a separate morph for them so that it c
 * By request changed the default sort order from alphabetical to 'by magnitude', i.e. the morphs having the most effect will be at the top. If people hate this I can switch it back, or better yet put a sort by option in when I have time.
 * Also by request it will now add a 8 character random id to the end of the morph names to promote renaming to stop generic morph names flooding the community, overwriting and causing carnage!
 
-**8th February 2020: Uploadted to v.1.0.6**
+**8th February 2020: Updated to v.1.0.6**
 * Minor change to ignore formulas that target other morph values, this was causing a doubling up of effects. Assuming that we capture the results of all selected morphs we don't need to use the chaining nature of 'DAZMorphFormulaTargetType.MorphValue'. 
+
+**29th February 2020: Updated to v1.0.7**
+* Much thanks to chokaphi for awesome contribution, his pull request allows the seperate export of a head and body morph!
+* Add the ability to split a figure into a Head Morph and Body Morph
+* Currently it has a filter to the vertex deltas that just split Head from Body. It bypasses any user morph selection to capture the full head and body shape.
+* The filter was designed to be flexible enough to extend to other body parts.
+* Also Changed the random guid suffix fro file names to use the current date and time. To me that makes more sense for the user than a random string. This can be increased or decreased in resolution up to the cpu clock limit. I did NOT change the behavior for standard morph merge naming.
