@@ -49,4 +49,5 @@ If you have genital morphs it will create a separate morph for them so that it c
 * Add the ability to split a figure into a Head Morph and Body Morph
 * Currently it has a filter to the vertex deltas that just split Head from Body. It bypasses any user morph selection to capture the full head and body shape.
 * The filter was designed to be flexible enough to extend to other body parts.
-* Also Changed the random guid suffix fro file names to use the current date and time. To me that makes more sense for the user than a random string. This can be increased or decreased in resolution up to the cpu clock limit. I did NOT change the behavior for standard morph merge naming.
+* Also Changed the random guid suffix fro file names to use the current date and time. To me that makes more sense for the user than a random string. This can be increased or decreased in resolution up to the cpu clock limit.
+* Used the same naming strategy for the main merge as it's better than using a guid. 
