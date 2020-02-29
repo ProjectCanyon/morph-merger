@@ -28,6 +28,10 @@ If you have genital morphs it will create a separate morph for them so that it c
 * You won't be able to see your new morph until either you restart VaM or you do a hard reset from the main menu.
 * Your new morph should show up as morphs under _MorphMerger or the region name you specified.
 
+### Can I save to Daz format?
+
+Currently this is not possible, we are working with the loaded Morphs inside VaM rather than the raw Daz formats, so saving back would require a chunk of work. Other people have solved this though, once you've merged your morphs this tool should be able to convert it back to a Daz morph: https://www.reddit.com/r/VAMscenes/comments/dro2c3/vam_to_daz_a_utility_to_convert_vam_vmb_back_to/
+
 ## Version History
 
 **7th July 2019: Updated to v1.0.3**
