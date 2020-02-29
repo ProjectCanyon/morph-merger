@@ -263,7 +263,7 @@ namespace MorphMerger
         {
             try
             {
-                var rndId = Guid.NewGuid().ToString("N").Substring(0, 8);
+                var rndId = DateTime.Now.ToString("yyyy-dd-M--HH_mm_ss.fff");
 
                 ClearResultField();
 
