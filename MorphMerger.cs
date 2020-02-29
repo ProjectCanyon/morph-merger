@@ -59,7 +59,7 @@ namespace MorphMerger
         {
             try
             {
-                pluginLabelJSON.val = "MorphMerger v1.0.6 (by ProjectCanyon)";
+                pluginLabelJSON.val = "MorphMerger v1.0.7 (by ProjectCanyon, chokaphi)";
 
                 if (containingAtom.type != "Person")
                 {
