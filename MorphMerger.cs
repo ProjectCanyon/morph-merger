@@ -408,7 +408,7 @@ namespace MorphMerger
 
         private void WriteToResultField(string message)
         {
-            _resultTextField.text += Environment.NewLine + message;
+            _resultTextField.text += $"\n{message}";
         }
 
         private DAZMorph ProcessMorphBank(IEnumerable<SelectableMorph> bank, string name, string displayName, VertexFilter vertexFilter = null)
