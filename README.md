@@ -11,6 +11,7 @@ Create a 'base morph' for values that make up a look, only morphs needed for ani
 ### Contributors
 
 chokaphi
+everlaster
 
 ![Plugin screenshot](https://raw.githubusercontent.com/ProjectCanyon/morph-merger/master/MorphMerger_UI.png)
 
